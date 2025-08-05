@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+body{
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* navbar links border */
+@keyframes neonPulse {
+ 0% ,100% {
+    box-shadow: 0 0 30px #b3251b, 0 0 60px #0c158d;
+  }
+  50% {
+    box-shadow: 0 0 60px #b3251b, 0 0 100px #0c158d;
+  }
+  
+}
+
+.neon-animate {
+  animation: neonPulse 2s infinite;
+}
+
+/* Glow effect for the image */
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 30px #b3251b, 0 0 60px #0c158d;
+  }
+  50% {
+    box-shadow: 0 0 60px #b3251b, 0 0 100px #0c158d;
+  }
+  100% {
+    box-shadow: 0 0 30px #b3251b, 0 0 60px #0c158d;
+  }
+}
+
+.glow-ring {
+  pointer-events: none;
+  background: transparent;
+  border-radius: 9999px;
+  width: 280px;
+  height: 280px;
+}
+
+.animate-glow {
+  animation: glowPulse 1.5s ease-in-out infinite;
+  box-shadow: 0 0 60px rgba(165, 23, 13, 0.8), 0 0 100px rgba(15, 70, 153, 0.8);
+}
+
+
+
+
+
