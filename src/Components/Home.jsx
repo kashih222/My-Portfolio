@@ -66,10 +66,10 @@ const Home = () => {
 
      <div className="mt-8">
         <div className={gradientBorder}>
-          <button onClick={handleContactClick} className={buttonInner}>
+          <a href="#contact"><button onClick={handleContactClick} className={buttonInner}>
             Contact Me
             <Mail className={`inline ml-2 transition-transform ${isContacting ? 'animate-spin' : ''}`} size={24} />
-          </button>
+          </button></a>
         </div>
       </div>
 

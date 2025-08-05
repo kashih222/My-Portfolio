@@ -5,7 +5,7 @@ import { Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full py-2 px-4 sm:px-6 lg:px-8 border-t-2 border-white bg-white/10">
+    <footer className="w-full py-2 px-4 sm:px-6 lg:px-8 border-t-2 border-white bg-white/10 bottom-0">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Left section */}
         <div className="flex flex-col mb-4 md:mb-0">
